@@ -1,0 +1,10 @@
+{
+    "extends": "@repo/typescript-config/react-library.json",
+    "compilerOptions": {
+      "outDir": "dist",
+      "module": "NodeNext",
+    "moduleResolution": "NodeNext"
+    },
+    "include": ["src", "turbo"],
+    "exclude": ["node_modules", "dist"]
+  }

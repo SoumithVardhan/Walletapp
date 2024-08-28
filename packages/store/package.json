@@ -1,0 +1,14 @@
+{
+  "name": "@repo/store",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@repo/db": "*",
+    "@types/recoil": "^0.0.9",
+    "axios": "^1.7.4",
+    "recoil": "0.7.7"
+  },
+  "exports": {
+    ".": "./index.ts"
+  }
+}

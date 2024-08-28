@@ -1,0 +1,30 @@
+{
+  "name": "@repo/db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.19.0",
+    "@types/bcryptjs": "^2.4.6",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^22.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "exports": {
+    "./client": "./index.ts"
+  },
+  "description": ""
+}

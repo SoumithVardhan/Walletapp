@@ -1,0 +1,22 @@
+{
+    "extends": "@repo/typescript-config/nextjs.json",
+    "compilerOptions": {
+      "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+      "plugins": [
+        {
+          "name": "next"
+        }
+      ]
+    },
+    "include": [
+      "tailwind.config.js",
+    "postcss.config.js",
+      "next-env.d.ts",
+      "next.config.js",
+      "**/*.ts",
+      "**/*.tsx",
+      ".next/types/**/*.ts"
+  , "../../packages/ui/src/Avatar.tsx", "../../packages/ui/src/Filter.tsx", "../../packages/ui/src/Dropdown.tsx", "../../packages/ui/src/DropdownItem.tsx"  ],
+    "exclude": ["node_modules"]
+  }

@@ -9,8 +9,12 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "eslint-plugin-turbo": "^2.0.14",
+    "postcss": "^8.4.41",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.10",
     "turbo": "^2.0.14"
   },
   "engines": {
@@ -21,5 +25,13 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "ioredis": "^5.4.1",
+    "next-auth": "^4.24.7",
+    "prisma": "^5.18.0",
+    "punycode": "^2.3.1",
+    "tsx": "^4.17.0"
+  }
 }
